@@ -1,0 +1,48 @@
+# --- General ---
+.DS_Store
+Thumbs.db
+*.log
+*.cache
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# --- Virtual Environments ---
+venv/
+.env/
+.venv/
+
+# --- Django ---
+*.sqlite3
+# Ignore local environment and secret files
+*.local
+secret_*.json
+
+# --- Flask ---
+instance/
+
+# --- Node / React ---
+node_modules/
+build/
+dist/
+npm-debug.log
+yarn-error.log
+*.npmrc
+package-lock.json
+
+# --- Coverage / Testing ---
+coverage/
+coverage.json
+.nyc_output/
+.pytest_cache/
+
+# --- Docker ---
+# Ignore local Docker/Compose override files or environment files
+docker-compose.override.yml
+*.env
